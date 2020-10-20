@@ -1,0 +1,6 @@
+127.0.0.1/usairlineflights2/flights/		http://127.0.0.1/phpmyadmin/db_sql.php?db=usairlineflights2
+ Mostrando filas 0 - 24 (total de 4755, La consulta tardó 0,0016 segundos.)
+
+SELECT * FROM flights
+
+

@@ -1,0 +1,36 @@
+127.0.0.1/usairlineflights2/flights/		http://127.0.0.1/phpmyadmin/tbl_sql.php?db=usairlineflights2&table=flights
+ Mostrando filas 0 - 24 (total de 213, La consulta tardó 0,0152 segundos.)
+
+SELECT `Origin`, AVG(`ArrDelay`) AS `promig_arribades`,
+AVG(`DepDelay`) AS `promig_sortides`
+FROM
+flights
+GROUP BY `Origin`
+
+
+Origin	promig_arribades	promig_sortides	
+ABE	17.1250			15.7500	
+ABQ	3.8158			6.8684	
+ABY	4.5000			19.0000	
+AGS	19.0000			15.3333	
+ALB	-2.2500			-0.1250	
+AMA	1.2500			0.0000	
+ANC	1.8571			3.5000	
+ASE	7.0000			10.0000	
+ATL	9.5720			9.8833	
+ATW	0.6667			1.6667	
+AUS	1.5455			1.2273	
+AVL	-7.6667			-3.3333	
+AZO	-10.0000		-5.0000	
+BDL	-4.4348			2.7826	
+BET	1.0000			-2.0000	
+BFL	-6.0000			0.0000	
+BGR	45.0000			60.0000	
+BHM	5.7500			8.3750	
+BIL	14.0000			4.5000	
+BIS	17.0000			0.0000	
+BNA	7.8936			8.9574	
+BOI	3.6667			2.0000	
+BOS	5.8286			8.3238	
+BTR	7.6667			-0.8333	
+BTV	-11.4444		-4.0000	

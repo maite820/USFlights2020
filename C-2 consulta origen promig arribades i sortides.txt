@@ -1,0 +1,61 @@
+127.0.0.1/usairlineflights2/flights/		http://localhost/phpmyadmin/tbl_sql.php?db=usairlineflights2&table=flights
+ Mostrando filas 0 - 49 (total de 213, La consulta tardó 0,0076 segundos.)
+
+SELECT `Origin`,
+`ArrTime`AS `promig_arribades`,
+`DepTime`AS `promig_sortides`
+FROM flights
+GROUP BY `Origin`
+
+
+Origin	promig_arribades	promig_sortides	
+ABE	2020				1944	
+ABQ	2019				1823	
+ABY	1509				1415	
+AGS	157				125	
+ALB	1320				1239	
+AMA	1518				1520	
+ANC	1550				1500	
+ASE	1136				755	
+ATL	2237				2144	
+ATW	827				720	
+AUS	1932				1841	
+AVL	726				659	
+AZO	1137				1035	
+BDL	1327				1230	
+BET	2050				1938	
+BFL	1353				1230	
+BGR	2045				1810	
+BHM	1353				1321	
+BIL	1418				1305	
+BIS	1226				1112	
+BNA	959				928	
+BOI	840				704	
+BOS	1913				1800	
+BTR	2250				2200	
+BTV	1252				1202	
+BUF	1413				1314	
+BUR	1315				1224	
+BWI	1503				1430	
+BZN	1856				1757	
+CAE	1603				1526	
+CHA	1722				1627	
+CHO	722				649	
+CHS	820				730	
+CID	950				845	
+CLE	836				732	
+CLL	824				723	
+CLT	2225				2147	
+CMH	1310				1147	
+CMI	1848				1752	
+COS	1614				1529	
+CRP	1920				1840	
+CRW	736				659	
+CSG	708				610	
+CVG	1949				1907	
+DAB	1802				1636	
+DAL	1757				1712	
+DAY	1136				1054	
+DCA	1917				1738	
+DEN	931				840	
+DET	826				830	
